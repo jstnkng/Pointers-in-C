@@ -12,6 +12,7 @@ int main(int argc, char** argv){
 	
 	clearScreen();
 	printf("We will start with an int x.  Its value is 0.\n");
+
 	printf("We will also declare an int* y.  We will set its value to the address of x.\n\n");
 	int x = 0;
 	int* y = &x;
